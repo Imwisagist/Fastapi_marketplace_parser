@@ -56,7 +56,7 @@ async def get_goods(nm_id, response: Response):
 
 
 @app.delete('/goods/{nm_id}', status_code=status.HTTP_204_NO_CONTENT)
-async def delete_goods(nm_id):
+async def del_goods(nm_id):
     db_session = session()
     goods_exists = db_session.get(Goods, nm_id)
     if goods_exists:
