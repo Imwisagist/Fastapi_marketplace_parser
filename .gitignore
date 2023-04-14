@@ -2,10 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.env
 # C extensions
 *.so
-
+.idea/
+poetry.lock
 # Distribution / packaging
 .Python
 build/
@@ -102,7 +103,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+infra/.env
 .venv
 env/
 venv/
