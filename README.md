@@ -1,4 +1,4 @@
-# Test_for_a_retail_company
+# Fastapi_marketplace_parser
 ### Clone project and enter in the infra folder:
 ```bash
 git clone https://github.com/Imwisagist/Test_for_a_retail_company.git && cd Test_for_a_retail_company/infra
